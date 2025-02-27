@@ -42,3 +42,5 @@ At each step (or **generation**), the automaton applies the rule set to each cel
 ## Contributing
 
 Feel free to fork the repository, experiment with different rules, or improve the implementation!
+
+Written in C++ using ubuntu container
