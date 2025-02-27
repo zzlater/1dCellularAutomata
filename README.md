@@ -10,5 +10,29 @@ This project simulates a **1D Cellular Automaton** based on an initial array of 
 
 At each step (or **generation**), the automaton applies the rule set to each cell, considering its left and right neighbors. This process continues iteratively, generating new arrays that form interesting patterns over time.
 
-### Example
-Given an initial array:
+## Usage
+
+ - **Compile the Program**  
+   Run the following command inside the project folder:  
+   ```
+   make
+   ```
+   to generate the executable.
+ - **Run a Test Example**
+	Execute a test run using rule set *69*
+	```
+	make Test
+	``` 
+ - **Clean up Compiled Files**
+	To remove binary/object files:
+	```
+	make Clean
+	```
+## Interesting Inputs
+ - 58 (House shaped🏠)
+ - 69 (Double triangle on top of square)
+ - 126 (Fractal-like structure) My favorite :)
+
+## Contributing
+
+Feel free to fork the repository, experiment with different rules, or improve the implementation!
