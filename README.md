@@ -18,6 +18,12 @@ At each step (or **generation**), the automaton applies the rule set to each cel
    make
    ```
    to generate the executable.
+ - **Run the Program**  
+   After compiling, run the program with:  
+   ```
+   ./CA
+   ```
+   You will then be prompted to enter a rule set integer between 0-255
  - **Run a Test Example**
 	Execute a test run using rule set *69*
 	```
